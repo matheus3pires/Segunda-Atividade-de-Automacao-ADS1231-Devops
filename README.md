@@ -14,6 +14,22 @@ O arquivo CSV utilizado para armazenar os dados dos clientes segue o seguinte fo
 
 Cada linha subsequente no arquivo contém as informações de um cliente, separadas por vírgula, na ordem: nome, e-mail e telefone.
 
+## Instruções de Uso Docker
+1. Navegue para o Diretório do Projeto.
+2. Construa a Imagem Docker:
+   
+        docker build -t segunda-atividade . 
+       
+3. Execute o Container Docker:
+   
+        docker run -it segunda-atividade 
+       
+4. Interaja com o programa:
+   * Uma vez que o container esteja em execução, você poderá interagir com o programa Python usando o terminal. Siga as instruções no console para usar os recursos do programa de gerenciamento de clientes.
+  
+ ![imagem](https://github.com/matheus3pires/Segunda-Atividade-de-Automacao-ADS1231-Devops/assets/87993331/399ed993-4490-4544-8f3d-996d2600d625)
+
+
 ## Print de execução
 
 ![Anotação 2024-03-26 145644](https://github.com/matheus3pires/Segunda-Atividade-de-Automacao-ADS1231-Devops/assets/87993331/13c36a70-40fa-41ae-b699-78919fd1a75a)
